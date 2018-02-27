@@ -1,0 +1,260 @@
+1. The beginning of a multi-line comment
+
+2. JSDoc @author tag specifying the author of the code.
+
+3. JSDoc @version tag specifying the version of the code.
+
+4. JSDoc @desc tag describing the code
+
+5. JSDoc @todo tag specifying anything that needs to be done(nothing in this case).
+
+6. End of the multi-line comment.
+
+8. Pragma - Turning on strict mode
+
+9. Importing the readline-sync library and assigning it to constant variable PROMPT
+
+11. Declaring and initializing constant variables MAX_GRADE, MAX_MONTH, AND MAX_CLASSROOM.
+
+12. Declaring a variable named continueResponse.
+
+13. Declaring three more variables - currentGrade, currentClassroom, monthNum.
+
+15-19. A multi-line comment with JSDoc tags.
+
+20. The method signature line for method "main". Also known as the dispatcher method. The open curly brace signifying the start of the block of code.
+
+21. Calls the setContinueResponse method.
+
+22. The beginning of a while loop that runs as long as continueResponse is equal to 1. Opening curly brace signifying start of the block of code.
+
+23. Calls the setMonthNum method.
+
+24. Calls the setCurrentGrade method.
+
+25. Calls the setCurrentClassroom method.
+
+26. Calls the processPaymentCoupons method.
+
+27. Calls the setContinueResponse method.
+
+28. Closing curly brace signifying end of while loop block of code.
+
+29. The beginning of a c-style for loop(Declaring and initializing variable i, setting a condition, incrementing i).
+
+30. Calling the printGoodbye method.
+
+31. Closing curly brace signifying end of for loop block of code.
+
+32. Closing curly brace signifying end of dispatcher method block of code.
+
+34. Calling the dispatch method(main).
+
+36-40. Multi-line comment with JSDoc tags
+
+41. The method signature line for method "setContinueResponse". Opening curly brace signifying start of the block of code.
+
+42. The beginning of an if statement(if continueResponse is equal to 1 or if continueResponse is equal to 0). Opening curly brace signifying start of if statement block of code.
+
+43. Prompting a user for input and setting continueResponse variable to what the user enters. 
+
+44. The beginning of a while loop that will loop as long as the user does not input either a 0 or a 1. Opening curly brace signifying start of while loop block of code.
+
+45. Printing to the screen that whatever the user entered was not correct.
+
+46. Prompting the user for input and setting continueResponse variable to what the user enters.
+
+47. Closing curly brace signifying end of while loop block of code.
+
+48. Closing curly brace for the if statement, the beginning of an else statement with opening curly brace.
+
+49. Setting continueResponse to equal 1. 
+
+50. Closing curly brace signifying end of else statement.
+
+51. Closing curly brace signifying end of setContinueResponse mutator method.
+
+53-57. Multi-line comment witb JSDoc tags
+
+58. The method signature line for method "setMonthNum".
+
+59. Beginning of an if statement(if monthNum does not equal null and monthNum is less than or equal to MAX_MONTH). Opening curly brace for start of if statement block
+
+60. Incrementing monthNum once.
+
+61. Closing curly brace for end of if statement block, start of else statement, opening curly brace for start of else statement block.
+
+62. Setting monthNum to equal 1.
+
+63. Closing curly brace for end of the else statement block.
+
+64. Closing curly brace for end of setMonthNum mutator method.
+
+66-70. Multi-line comment with JSDoc tags.
+
+71. The method signature line for method "setCurrentMonth".
+
+73. Declaring and initializing variable currentMonth.
+
+74. Beginning of a switch statement with variable monthNum as its expression(the value of monthNum will be compared with the number of each case, if equal the block of code for whichever case will be run).
+
+75. Beginning of case 1 block, if monthNum is equal to 1 currentMonth will be set to 'September'
+
+76. Break statement(breaks out of switch if case 1 is run)
+
+77. Beginning of case 2 block, if monthNum is equal to 2, currentMonth will be set to 'October'
+
+78. Break statement(breaks out of switch if case 2 is run)
+
+79. Beginning of case 3 block, if monthNum is equal to 3, currentMonth will be set to 'November'
+
+80. Break statement
+
+81. Beginning of case 4 block, if monthNum is equal to 4, currentMonth will be set to 'December'
+
+82. Break satement.
+
+83. Beginning of case 5 block, if monthNum is equal to 5, currentMonth will be set to 'January'
+
+84. Break statement.
+
+85. Beginning of case 6 block, if monthNum is equal to 6, currentMonth will be set to 'Feburary'
+
+86. Break statement.
+
+87. Beginning of case 7 block, if monthNum is equal to 7, currentMonth will be set to 'March'
+
+88. Break statement.
+
+89. Beginning of case 8 block, if monthNum is equal to 8, currentMonth will be set to 'April'
+
+90. Break statement.
+
+91. Beginning of case 9 block, if monthNum is equal to 9, currentMonth will be set to 'May'
+
+92. Break statement.
+
+93. Beginning of default case specifying code to be run if the expression doesnt match any of the cases(print to screen 'Invalid Month')
+
+94. Closing curly brace for end of switch statement.
+
+95. print to screen the value of variable currentMonth and the value type.
+
+96. Recursively calling currentMonth method.
+
+97. Closing curly brace for end of setCurrentMonth mutator method.
+
+99-103. Multi-line comment with JSDoc tags.
+
+104. The method signature line for method setCurrentGrade. Opening curly brace signifying start of setCurrentGrade block of code.
+
+105. Beginning of an if statement(if currentGrade does not equal null and currentGrade is less than or equal to MAX_GRADE). Opening curly brace for start of if statement block.
+
+106. Increment currentGrade once.
+
+107. Closing curly brace for end of if statement block, start of else statement, opening curly brace for start of else statement block.
+
+108. Set currentGrade to equal 0.
+
+109. Closing curly brace for end of else statement block.
+
+110. Print to screen the value of variable currentGrade and its type.
+
+111. Closing curly brace for end of setCurrentGrade mutator method.
+
+113-117. Multi-line comment with JSDoc tags.
+
+118. The method signature line for method setCurrentClassroom. Opening curly brace signifying start of setCurrentClassroom block of code.
+
+119. Beginning of an if statement(if currentClassroom does not equal null and currentClassroom is less than or equal to MAX_CLASSROOM). Opening curly brace for start of if statement block.
+
+120. Increment currentClassroom once.
+
+121. Closing curly brace for end of if statement block, start of else statement, opening curly brace for start of else statement block.
+
+122. Set currentClassroom to equal 1.
+
+123. Closing curly brace for end of else statement block.
+
+124. Print to screen value of variable currentClassroom and its type.
+
+125. Closing curly brace for end of setCurrentClassroom mutator method.
+
+127-131. Multi-line comment with JSDoc tags.
+
+132. The method signature line for the setUpperTuition utility method.
+
+133. Declaring and initializing constant variable BASE_TUITION.
+
+134. Return statement returning the value of calculation BASE_TUITION * currentGrade. 
+
+135. Closing curly brace for end of setUpperTuition utility method.
+
+137-141. Multi-line comment with JSDoc tags.
+
+142. The method signature line for the processPaymentCoupons utility method.
+
+143. Declaring and initializing constant variable KDG_TUITON.
+
+144. Beginning of a while loop that runs while currentGrade is less than or equal to MAX_GRADE.
+
+145. Beginning of a while loop that runs while currentClassroom is less than or equal to MAX_MONTH.
+
+146. Beginning of a while loop that runs while monthNum is less than or equal to MAX_MONTH.
+
+147. Beginning of an if statement(if currentGrade is equal to 0).
+
+148. Print to screen tuition information for kindergarten
+
+149. End of if statement block, start of else statement
+
+150. Print to screen tuition information for upper grades.
+
+151. End of else statement
+
+152. Calls setMonthNum mutator method
+
+153. End of monthNum <= MAX_MONTH while loop
+
+154. Calls setCurrentClassroom mutator method
+
+155. Calls setMonthNum mutator method
+
+156. End of currentClassroom <= MAX_CLASSROOM while loop
+
+157. Calls setCurrentGrade mutator method
+
+158. Calls setCurrentClassroom mutator method
+
+159. End o currentGrade <= MAX_GRADE while loop
+
+160. End of processPaymentCoupons utility method
+
+162-166. Multi-line comment with JSDoc tags.
+
+167. The method signature line for printGoodbye utility method.
+
+168. Print to screen Goodbye
+
+169. End of printGoodbye utility method.
+
+
+-Definitions-
+	
+Variable - A container that holds information
+Constant - A type of variable with a value that is constant.
+Cohesion - How the statements inside a method serve to accomplish the methods purpose
+Assignment - Assign a value to a variable
+Initialization - Initialization of a variable happens when you assign it a starting value.
+Method - A block of code meant to tackle one task
+Braces - Opening "{" and closing "}" curly braces signify the beginning and end of blocks of code
+Array - A series of values in computer memory. Where a variable stores 1 value, an array stores multiple(or even other arrays)
+Looping - A loop can be used to perform a set of tasks as long as the condition set is met
+Selection - One course of action is taken based on the answer to a question
+Signature lines - Where a methods name and parameters are declared
+Declaration - A declaration is a statement that provides a data type and identifier for a variable.
+Auto increment - Increasing the value of an item by 1 using ++;
+Numeric testing - If a value does not equal, is equal, is greater than, less then, etc
+String testing - Testing if a string contains certain characters or is a certain length etc
+Concatentation - Connecting things together. 
+Commenting - Comments are lines in the code that are ignored by the compiler
